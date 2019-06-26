@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in {1..3};
+do
+    python kunet1.py --file_path="data/membrane/428_kunet1/shell_w_bce_dice_loss_kunet1_30_$i" --model_name="428_kunet1/shell_w_bce_dice_loss_kunet1_30_$i.hdf5" --Epochs=30
+    echo $i
+done
+

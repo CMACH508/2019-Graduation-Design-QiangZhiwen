@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in {1..5};
+do
+    python generate_tif.py --file_path="data/membrane/59_dense/shell_w_bce_dice_loss_dense_50_$i/" --file_name="tif_result/59_dense/shell_w_bce_dice_loss_dense_50_$i.tif"
+    echo $i
+done
+
