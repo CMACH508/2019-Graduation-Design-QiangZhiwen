@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+for i in {1..10};
+do
+    cp -r test_tmp ./428_kunet1
+    mv ./428_kunet1/test_tmp ./428_kunet1/shell_w_bce_dice_loss_kunet1_30_$i
+    echo $i
+done
